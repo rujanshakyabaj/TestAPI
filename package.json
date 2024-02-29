@@ -7,18 +7,17 @@
     "cy:open": "cypress ",
     "test:awesome": "mocha --reporter mochawesome || true",
     "open:report": "open mochawesome-report/mochawesome.html"
-    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.6.6",
-    "json-server": "^1.0.0-alpha.23",
     "marge": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^5.1.0",
+    "json-server": "^1.0.0-alpha.23",
     "mocha": "^10.3.0",
     "mochawesome": "^7.1.3"
   }
