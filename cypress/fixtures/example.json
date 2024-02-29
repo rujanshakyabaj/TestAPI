@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Rujan",
+      "lastName": "Shakya",
+      "age": 45
+    },
+    {
+      "id": "2",
+      "firstName": "Alastair",
+      "lastName": "Cook",
+      "age": 37
+    },
+    {
+      "id": "3",
+      "firstName": "Steve",
+      "lastName": "Smith",
+      "age": 32
+    },
+    {
+      "id": "4",
+      "firstName": "Rujan",
+      "lastName": "Shakya",
+      "age": 22
+    }
+  ]
+}
