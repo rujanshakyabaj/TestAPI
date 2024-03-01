@@ -32,21 +32,21 @@ describe("Different types of Auth Testing", () => {
             expect(response.body.authenticated).to.eq(true)
         })
     })
-    const bearerToken = "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"
-    it("Bearer Token for Github Account", () => {
-        cy.request(
-            {
-                method: "GET",
-                url: "https://api.github.com/user/repos",
-                headers: {
-                    "Authorization": "Bearer " + bearerToken
-                }
-            }
-        ).then((response) => {
-            expect(response.status).to.eq(200)
-            cy.log(response.body[0].name)
-        })
-    })
+    // const bearerToken = "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"
+    // it("Bearer Token for Github Account", () => {
+    //     cy.request(
+    //         {
+    //             method: "GET",
+    //             url: "https://api.github.com/user/repos",
+    //             headers: {
+    //                 "Authorization": "Bearer " + bearerToken
+    //             }
+    //         }
+    //     ).then((response) => {
+    //         expect(response.status).to.eq(200)
+    //         cy.log(response.body[0].name)
+    //     })
+    // })
     const weatherapikey = "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"
     it("API Token for OpenWeatherApi", () => {
         cy.request(
